@@ -1,0 +1,12 @@
+{
+    "name": "openquora",
+    "version": "1.0",
+    "description": "no quora, i do not want to sign up",
+    "content_scripts": [
+        {
+          "matches": ["https://*.quora.com/*"],
+          "js": ["app.js"]
+        }
+      ],
+    "manifest_version": 2
+}
