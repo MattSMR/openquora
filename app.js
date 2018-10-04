@@ -1,3 +1,3 @@
 console.log("openquora loaded");
-document.getElementById("__w2_z8u2fCA_signup_wall_wrapper").innerHTML = "";
-document.body.class = "web_page lang_en";
+document.getElementsByClassName("_DialogSignupForm BaseSignupForm vertical_alignment_wrapper")[0].innerHTML = "";
+document.body.className = "web_page lang_en";
